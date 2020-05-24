@@ -1,0 +1,82 @@
+body,
+html {
+  margin: 0;
+  font-family: "Lato", Helvetica, sans-serif;
+  color: #777;
+  height: 100%;
+}
+
+.content {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*parallax effect*/
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  position: relative;
+  height: 100%;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.box1 {
+  background-image: url(imagens/imagem1.jpg);
+}
+
+.box2 {
+  background-image: url(imagens/imagem2.jpg);
+}
+
+.box3 {
+  background-image: url(imagens/imagem3.jpg);
+}
+
+.box4 {
+  background-image: url(imagens/imagem4.jpg);
+}
+
+.box5 {
+  background-image: url(imagens/imagem5.jpg);
+}
+
+.title-content {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.title-content span.title {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #111;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  opacity: 0.8;
+}

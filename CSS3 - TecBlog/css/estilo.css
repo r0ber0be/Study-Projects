@@ -1,0 +1,127 @@
+/*Limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(243, 243, 243);
+  font: 16px Arial, Helvetica, sans-serif;
+}
+
+/*Layout*/
+
+#area-cabecalho {
+  background-color: #f7b600;
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo,
+#area-menu {
+  padding: 10px;
+}
+
+#area-principal {
+  width: 920px;
+  margin: 0px auto;
+  padding: 15px;
+}
+
+#area-postagem {
+  padding: 10px;
+  width: 660px;
+  float: left;
+}
+
+#area-lateral {
+  width: 230px;
+  float: right;
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
+}
+
+.postagem-lateral {
+  font-size: 0.8em;
+  padding: 5px;
+  border-bottom: 1px dotted #ccc;
+}
+
+/*Formatações gerais*/
+
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #f7b600;
+}
+
+h3 {
+  color: #565656;
+  background: #ccc;
+  padding: 5px;
+}
+
+.branco {
+  color: white;
+}
+
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.data-postagem {
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+/*tamanho da foto*/
+.t_foto {
+  width: 620px;
+}
+
+.conteudo-lateral {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/*links*/
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f7b600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#area-menu a:link,
+#area-menu a:visited {
+  color: white;
+  padding: 8px 12px;
+}
+
+#area-menu a:hover {
+  text-decoration: none;
+  color: rgb(255, 222, 34);
+  background: rgb(248, 248, 248);
+}
+
+a:active {
+  color: plum;
+}
